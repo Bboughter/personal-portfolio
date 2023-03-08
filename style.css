@@ -1,90 +1,112 @@
 * {
     box-sizing: border-box;
-  }
-  
-  body {
+}
+
+body {
     font-family: Arial;
     margin: 0;
-  }
-  
-  header {
+}
+
+header {
     padding: 40px;
     text-align: center;
     background: #13293d;
     color: #fff;
-  }
-  
- 
-  nav {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+
+nav {
     display: flex;
     background-color: #d8a47f;
-  }
-  
-  nav a {
+    margin: 0 auto;
+}
+
+nav ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+a {
     color: #13293d;
     padding: 14px 20px;
     text-decoration: none;
     text-align: center;
-  }
-  
+}
 
-  main {
+
+main {
     display: flex;
     flex-wrap: wrap;
-  }
-  
-  aside {
+    padding-top: 200px;
+}
+
+aside {
     flex: 1;
     background-color: #b9c6ae;
     padding: 80px;
     text-align: center;
-  }
-  
-  footer {
+}
+h3 {
+    text-align: center;
+    background: #13293d;
+    color: #fff;
+}
+footer {
     padding: 20px;
     text-align: center;
     background: #13293d;
     color: #fff;
-  }
-  .resize {
+}
+
+.resize {
     width: 400px;
     height: 400px;
-  }
- 
-  .sections {
+}
+
+.sections {
     flex: 4;
     background-color: #fff;
     padding: 20px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-  }
-  
- 
-  .projects {
+}
+
+
+.projects {
     border-style: solid;
     border-width: 1px;
     border-radius: 10px;
     padding: 10px;
     flex: 0 0 400px;
-  }
-  
-  .projects header {
-    padding: 20px;
-  }
-  
-  .projects p {
-    text-align: center;
-  }
-  
-  .projects img {
-    width: 100%;
-  }
-  
+}
 
-  @media screen and (max-width: 768px) {
+.projects header {
+    padding: 20px;
+}
+
+.projects p {
+    text-align: center;
+}
+
+.projects img {
+    width: 100%;
+}
+
+
+@media screen and (max-width: 768px) {
+
     main,
     nav {
-      flex-direction: column;
+        flex-direction: column;
     }
-  }
+}
