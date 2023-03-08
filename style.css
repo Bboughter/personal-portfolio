@@ -8,9 +8,9 @@ body {
 }
 
 header {
-    padding: 40px;
+    padding: 20px;
     text-align: center;
-    background: #13293d;
+   background-color: rgba(64, 9, 66, 0.3) ;
     color: #fff;
     position: fixed;
     width: 100%;
@@ -18,10 +18,10 @@ header {
     left: 0;
 }
 
-
+   
 nav {
     display: flex;
-    background-color: #d8a47f;
+    background-color: #414140;
     margin: 0 auto;
 }
 
@@ -31,12 +31,14 @@ nav ul {
     justify-content: space-around;
 }
 
-nav ul li {
+nav ul li,
+section ul li  {
     list-style: none;
 }
 
+
 a {
-    color: #13293d;
+    color: #f6f8fa;
     padding: 14px 20px;
     text-decoration: none;
     text-align: center;
@@ -61,10 +63,11 @@ h3 {
     color: #fff;
 }
 footer {
-    padding: 20px;
+    padding: 0px;
     text-align: center;
     background: #13293d;
     color: #fff;
+    
 }
 
 .resize {
@@ -100,6 +103,13 @@ footer {
 
 .projects img {
     width: 100%;
+}
+#email::before {
+    content: ':envelope:';
+    size: 20px;
+}
+#contact-info {
+    display: block;
 }
 
 
