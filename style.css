@@ -1,92 +1,90 @@
 * {
     box-sizing: border-box;
-    margin: 0px;
-    padding: 0px;
-
-}
-
-body {
+  }
+  
+  body {
     font-family: Arial;
     margin: 0;
-}
-
-header {
+  }
+  
+  header {
     padding: 40px;
     text-align: center;
-    background: #093b50;
+    background: #13293d;
     color: #fff;
-}
-
-footer {
-    padding: 10px;
-    text-align: center;
-    background: #093b50;
-    color: #fff;
-
-}
-nav {
-    text-align: center;
+  }
+  
+ 
+  nav {
+    display: flex;
+    background-color: #d8a47f;
+  }
+  
+  nav a {
+    color: #13293d;
+    padding: 14px 20px;
     text-decoration: none;
-    background-color: grey;
-}
-
-a {
-    text-decoration: none;
-    text-align: inline;
-}
-
-.resize {
-    width: 200px;
-    height: 200px;
     text-align: center;
+  }
+  
+
+  main {
+    display: flex;
     flex-wrap: wrap;
-}
-
-.navigation {
-    color: rgb(57, 57, 183);
-}
-
-.sections {
-    flex: 2;
-    background-color: #ffffff36;
-    /* padding: 20px; */
+  }
+  
+  aside {
+    flex: 1;
+    background-color: #b9c6ae;
+    padding: 80px;
+    text-align: center;
+  }
+  
+  footer {
+    padding: 20px;
+    text-align: center;
+    background: #13293d;
+    color: #fff;
+  }
+  .resize {
+    width: 400px;
+    height: 400px;
+  }
+ 
+  .sections {
+    flex: 4;
+    background-color: #fff;
+    padding: 20px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-}
-
-.projects {
-    border-style: groove;
-    border-color: black;
+  }
+  
+ 
+  .projects {
+    border-style: solid;
     border-width: 1px;
     border-radius: 10px;
     padding: 10px;
-    flex: 0 0 500px;
-}
-
-.projects header {
+    flex: 0 0 400px;
+  }
+  
+  .projects header {
     padding: 20px;
-}
-
-.projects p {
+  }
+  
+  .projects p {
     text-align: center;
-}
-
-.projects img {
+  }
+  
+  .projects img {
     width: 100%;
-}
+  }
+  
 
-#contact-info,
-#email {
-    text-align: center;
-
-
-}
-
-@media screen and (max-width: 768px) {
-
+  @media screen and (max-width: 768px) {
     main,
     nav {
-        flex-direction: column;
+      flex-direction: column;
     }
-}
+  }
