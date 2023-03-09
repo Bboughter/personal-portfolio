@@ -75,7 +75,7 @@ footer {
     height: 400px;
 }
 
-.sections {
+#my-projects {
     flex: 4;
     background-color: #fff;
     padding: 20px;
