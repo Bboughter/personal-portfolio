@@ -116,6 +116,7 @@ footer {
     main,
     nav {
         flex-direction: column;
+        background-color: rgb(82, 10, 82);
     }
 }
 @media screen and (max-width: 576px) {
@@ -123,5 +124,7 @@ footer {
     main,
     nav {
         flex-direction: column;
+        background-color:  #4e663a;
+
     }
 }
