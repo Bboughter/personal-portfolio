@@ -18,24 +18,9 @@ No installation steps required. Webpage can be accessed directly at https://bbou
 
 >This layout is designed for desktop, tablet, and cellphone viewing. The first project is the only project that has a current active website. The other four will be implemented in the near future.
 
-![Screenshot 2023-03-08 212019](https://user-images.githubusercontent.com/113574704/223928822-a28f9c9a-6eb2-4600-b480-b6ff39532a16.png)
-<<<<<<< HEAD
-![Screenshot 2023-03-08 212104](https://user-images.githubusercontent.com/113574704/223929083-d2b105a4-3d36-44f8-aa8b-c1f0f37127c2.png)
-=======
-
-
-
-https://user-images.githubusercontent.com/113574704/223932435-f7314a05-39de-4827-9f27-056f3cc71bb0.mp4
-
-
-https://user-images.githubusercontent.com/113574704/223932405-4f3520fe-75c4-4d24-adf6-0b50c8028f6d.mp4
-
-
-
-https://user-images.githubusercontent.com/113574704/223932483-617c8cbe-c343-4ad7-9347-fda39521d724.mp4
-
-
-https://user-images.githubusercontent.com/113574704/223932822-6432ee6b-c361-4f7f-bd3c-f8904ffe4697.mp4
-
-
->>>>>>> 9bfb8b33cb101eea31f83f10f12c77374c4a3b65
+![Screenshot 2023-03-08 220057](https://user-images.githubusercontent.com/113574704/223934816-de03db5f-5718-4728-9dfe-84a145bf595c.png)
+![Screenshot 2023-03-08 220131](https://user-images.githubusercontent.com/113574704/223934857-5a7863f7-4359-4d07-bb9c-0e318fc94945.png)
+https://user-images.githubusercontent.com/113574704/223934938-cf2c6cf6-3633-4824-9ec0-f53d2ab6c4f8.mp4
+https://user-images.githubusercontent.com/113574704/223934987-93c35a36-89d3-4ab0-afae-dc48f4b9b921.mp4
+https://user-images.githubusercontent.com/113574704/223935035-800322d1-2240-4424-b593-6238d97fbee3.mp4
+https://user-images.githubusercontent.com/113574704/223935070-24dc98c0-76ae-4ccd-8ba3-c12346ffa81d.mp4
