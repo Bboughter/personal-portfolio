@@ -12,7 +12,7 @@ contact me.
 
 ## Installation
 
-No installation steps required. Webpage can be accessed directly at 
+No installation steps required. Webpage can be accessed directly at https://bboughter.github.io/personal-portfolio/.
 
 ## Usage
 
