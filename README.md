@@ -15,5 +15,6 @@ contact me.
 No installation steps required. Webpage can be accessed directly at 
 
 ## Usage
+
 >This layout is designed for desktop, tablet, and cellphone viewing. The first project is the only project that has a current active website. The other four will be implemented in the near future.
 
