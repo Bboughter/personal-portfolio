@@ -8,10 +8,10 @@ body {
 }
 
 header {
-    padding: 20px;
+    padding: 10px;
     text-align: center;
    background-color: rgba(64, 9, 66, 0.3) ;
-    color: #fff;
+    color: #090909;
     position: fixed;
     width: 100%;
     top: 0;
@@ -21,7 +21,7 @@ header {
    
 nav {
     display: flex;
-    background-color: #414140;
+    background-color: #13293d;
     margin: 0 auto;
 }
 
@@ -48,7 +48,7 @@ a {
 main {
     display: flex;
     flex-wrap: wrap;
-    padding-top: 200px;
+    padding-top: 150px;
 }
 
 aside {
@@ -73,15 +73,6 @@ footer {
 .resize {
     width: 400px;
     height: 400px;
-}
-
-#my-projects {
-    flex: 4;
-    background-color: #fff;
-    padding: 20px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
 }
 
 
@@ -111,9 +102,23 @@ footer {
 #contact-info {
     display: block;
 }
-
+#my-projects {
+    flex: 4;
+    background-color: #fff;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 
 @media screen and (max-width: 768px) {
+
+    main,
+    nav {
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 576px) {
 
     main,
     nav {
