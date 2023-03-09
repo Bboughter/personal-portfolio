@@ -95,10 +95,7 @@ footer {
 .projects img {
     width: 100%;
 }
-#email::before {
-    content: ':envelope:';
-    size: 20px;
-}
+
 #contact-info {
     display: block;
 }
