@@ -2,15 +2,21 @@
 <html>
 
 <head>
+    <!-- this is the title displayed on the webpage tab -->
     <title>Portfolio</title>
     <meta charset="UTF-8" />
+    <!-- this makes the document responsive by scaling the items to screen -->
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- this is the linked CSS stylesheet -->
     <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
+<!-- this is the body which contain all the content on the document -->
 
 <body>
     <header>
+        <!-- this is the header with the selected header text size -->
         <h1>Brittany Boughter</h1>
+        <!-- this is the navigation bar in the header of the page which includes links to navigate between the about me, my projects, and contact info sections -->
         <nav>
             <ul>
                 <li><a href="#about-me">About Me</a></li>
@@ -20,21 +26,25 @@
         </nav>
 
     </header>
-
+    <!-- this is the main element which is where the majority of the content is displayed -->
     <main>
+        <!-- this aside element is used to define content aside from the main page content
+        in this section, I included a title about me, a picture of me, and a little bio -->
         <aside id="about-me">
             <h3>About Me</h3>
             <img class=resize src="./assets/IMG_7668.jpg" alt="Picture of me" />
-            <p>I am currently enrolled in a coding boot camp at the UCLA extension campus to become a Full Stack Developer.
+            <p>I am currently enrolled in a coding boot camp at the UCLA extension campus to become a Full Stack
+                Developer.
                 I was a police dispatcher for the last 10 years and I am excited to embark
-                on my new journey in the tech industry. On my free time, I enjoy being with my two boys and crafting.</p>
+                on my new journey in the tech industry. On my free time, I enjoy being with my two boys and crafting.
+            </p>
         </aside>
-
+        <!-- these next 5 sections are the section elements with hold my projects with their headers, a picture (some place holders), and a link to the page (if needed) -->
         <div id="my-projects">
             <section class="projects">
                 <h3>Project 1</h3>
                 <a href="https://bboughter.github.io/code-refactor/"> <img src="assets/Screenshot 1.png"
-                    alt="screenshot of first project exectuted which is a website showing an image of a seo meeting" /></a>
+                        alt="screenshot of first project exectuted which is a website showing an image of a seo meeting" /></a>
                 <p></p>
             </section>
             <section class="projects">
@@ -61,12 +71,14 @@
         </div>
     </main>
     <footer>
+        <!-- this footer section is at the bottom of the page and includes a title for contact info as well as my email and a GitHub icon which links to my personal GitHub page -->
         <section id="contact-info">
             <ul>
                 <h4>Contact Me:</h4>
                 <li><span id="email">brittany.wood0308@yahoo.com</span></li>
-                <li class="github-icon"><a href="https://github.com/Bboughter"><svg xmlns="http://www.w3.org/2000/svg" alt="The github logo"
-                            width="40" height="40" fill="#6e5494" class="bi bi-github" viewBox="0 0 16 16">
+                <li class="github-icon"><a href="https://github.com/Bboughter"><svg xmlns="http://www.w3.org/2000/svg"
+                            alt="The github logo" width="40" height="40" fill="#6e5494" class="bi bi-github"
+                            viewBox="0 0 16 16">
                             <path
                                 d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z">
                             </path>
